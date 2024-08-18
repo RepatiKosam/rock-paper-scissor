@@ -13,7 +13,7 @@ document.body.addEventListener("click",function(event){
                 let computerChoice = choices[Math.floor(Math.random()*3)];
                 if(userChoice==computerChoice){
                         result.style.color = "black";
-                        result.textContent = "NEUTRAL😑";
+                        result.textContent = "IT'S A TIE!😑";
                 }
                 else if((userChoice == "ROCK" && computerChoice == "SCISSOR") || (userChoice == "PAPER" && computerChoice == "ROCK") || (userChoice == "SCISSOR" && computerChoice == "PAPER")){
                         result.style.color = "lime";
